@@ -33,3 +33,29 @@ This project applies **K-Means Clustering** to the popular **Mall Customers data
 ```bash
 git clone https://github.com/yourusername/kmeans-customer-segmentation.git
 cd kmeans-customer-segmentation
+pip install pandas matplotlib scikit-learn
+python kmeans_customer_segmentation.py
+| File Name                      | Description                            |
+| ------------------------------ | -------------------------------------- |
+| `elbow_plot.png`               | Visual of optimal cluster number       |
+| `customer_clusters.png`        | Cluster segmentation scatter plot      |
+| `Mall_Customers_Clustered.csv` | Clustered dataset with insights        |
+| `Console Output`               | Cluster-wise stats and marketing ideas |
+🔍 Sample Cluster Insights
+Cluster 0: Moderate income, high spending – Offer loyalty rewards
+
+Cluster 1: High income, low spending – Push luxury campaigns
+
+Cluster 3: High income, high spending – VIP or elite programs
+
+Cluster 4: Young, low income – Target via social media ads
+
+🛠 Technologies Used
+Python 3.13
+
+Pandas
+
+Matplotlib
+
+Scikit-learn
+
